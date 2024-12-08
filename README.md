@@ -43,9 +43,9 @@ func main() {
     }
     defer reader.Close()
 
-    // Read records one by one
-    var person Person
     for {
+        // Read records one by one
+        var person Person
         err := reader.ReadNext(&person)
         if err != nil {
             if err == io.EOF {
