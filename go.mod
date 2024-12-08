@@ -1,3 +1,3 @@
-module gocsv
+module github.com/kmohhidayah/gocsv
 
 go 1.21.3
